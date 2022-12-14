@@ -16,12 +16,18 @@
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <!-- Page content -->
     <div class="min-h-screen flex flex-col">
       <!-- Header -->
-      <header class="bg-gray-900 py-6">
+      <header id="navbar" class="bg-gray-900 py-6">
         <div class="container mx-auto main-container">
           <h1 class="text-3xl font-bold">Hilrick Louw</h1>
           <nav class="ml-auto nav-menu">
@@ -50,7 +56,16 @@
             class="h-full w-screen w-full max-w-full mx-auto px-4 py-8 bg-white rounded-lg shadow-lg"
           >
             <h2 class="text-2xl font-bold mb-4">Home</h2>
-            <p>Welcome to the home page of my responsive site!</p>
+            <p class="font-bold">
+              Hi! My name is Hilrick Louw and I am a self taught frontend web
+              developer. I decided to finally take the leap into the amazing,
+              wonderous, magical world of web development in 2020. It has been
+              an incredibily tough, but rewarding journey for me thus far...<a
+                href="#about"
+                class="font-bold px-2 text-right see-more"
+                >see more</a
+              >
+            </p>
           </div>
 
           <!-- About page -->
@@ -61,10 +76,52 @@
           >
             <h2 class="text-2xl font-bold mb-4">About</h2>
             <p>
-              Write a bit about myself here. Example: Age, where from, past
-              work, self taught tv and kak, where I am now, why web dev. and my
-              goals.
+              Hi! My name is Hilrick Louw and I am a self taught frontend web
+              developer. I decided to finally take the leap into the amazing,
+              wonderous, magical world of web development in 2020. It has been
+              an incredibily tough, but rewarding journey for me thus far.
+              <br />
+              I had a successful career as a self taught video editor and
+              director, but my passion has always been tech, games, inovation
+              and the FUTURE! <br />
+              I am a husband and father of two children a sassy little girl and
+              an incredibly active boy.I did the basic A+ computer course in
+              2001 and the plan was to go into game development, but things
+              changed as the finances were not available for me to continue that
+              path back then. <br />
+              After a few years in the hospitality and music industry I started
+              shooting music videos and had to learn video editing. I got an
+              oppertunity to work as an editor on a mid day South African tv
+              show which led to me eventually directing and entire season.
+              <br />
+              Thoughout this time I have always been keeping a close eye on
+              technology trends and games. In 2020 just before covide my wife
+              and I planned on coming to New Zealand, but then covid happened,
+              She returned on her own as she is a citizen. I made the decision
+              to start studying web development in my own time, which was tough.
+              <br />
+              I have been getting some help and mentorship from a good friend of
+              mine Willem, who is a senior software engineer currently living in
+              Amsterdam. I have at least 2 other friends who have also been
+              willing to help and guide me through this journey. Willem has been
+              giving me some tasks and work to do on some of the projects he is
+              working on.
+              <br />
+              Just about three years later and I believe I am ready. I am
+              motivated, I pride myself in my ability to find answers to
+              questions. I am incredibily excited to finally be able to embark
+              on the next step in my life.
+              <br />
             </p>
+
+            <div>
+              <div class="mt-2 text-gray-700 text-right text-xs">
+                <a href="#navbar" class="font-bold px-2 text-right nav-item"
+                  ><i class="fa fa-angle-double-up" aria-hidden="true"></i
+                  >TOP</a
+                >
+              </div>
+            </div>
           </div>
 
           <!-- Projects -->
@@ -75,6 +132,15 @@
           >
             <h2 class="text-2xl font-bold mb-4">Projects</h2>
             <p>Feel free to have look at some of my work below.</p>
+
+            <div>
+              <div class="mt-2 text-gray-700 text-right text-xs">
+                <a href="#navbar" class="font-bold px-2 text-right nav-item"
+                  ><i class="fa fa-angle-double-up" aria-hidden="true"></i
+                  >TOP</a
+                >
+              </div>
+            </div>
           </div>
 
           <!-- Contact me -->
@@ -123,7 +189,8 @@
                 </div>
                 <div>
                   <div class="mt-2 text-gray-700 text-right text-xs">
-                    <a href="#home" class="font-bold px-2 text-right nav-item"
+                    <a href="#navbar" class="font-bold px-2 text-right nav-item"
+                      ><i class="fa fa-angle-double-up" aria-hidden="true"></i
                       >TOP</a
                     >
                   </div>
