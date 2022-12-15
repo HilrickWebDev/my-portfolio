@@ -1,5 +1,5 @@
 body {
-    background-color: #8d99ae;
+    background-color: #5febcd;
     background-image: url(/images/background2.png);
 }
 header {
@@ -12,7 +12,6 @@ header {
 
 #about {
     background-color: #edf2f4;
-    
 }
 
 #projects {
@@ -35,3 +34,24 @@ header {
 .see-more {
     color: #00afb9;
 }
+
+.home-text {
+    color: #136a6e;
+}
+
+.header-text {
+    color: #21cfd8;
+}
+
+/* BURGER MENU */
+
+.burger-menu {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .burger-menu {
+      display: block;
+    }
+  }
+

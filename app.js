@@ -14,3 +14,17 @@ function submitForm() {
   // Open the URL in a new window
   window.open(url);
 }
+
+const homeElement = document.querySelector("#home");
+const homePElement = homeElement.querySelector("p");
+
+const aboutElement = document.querySelector("#about");
+const aboutPElement = aboutElement.querySelector("p");
+const textContent = aboutPElement.textContent;
+const truncatedText =
+  textContent.substring(0, 800) +
+  '...<a href="#about" class="font-bold px-2 text-right see-more">see more</a>';
+
+homePElement.innerHTML = truncatedText;
+
+// BURGER MENU
