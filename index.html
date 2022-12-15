@@ -56,14 +56,29 @@
             id="home"
             class="h-full w-screen w-full max-w-full mx-auto px-4 py-8 bg-white rounded-lg shadow-lg"
           >
-            <h1 class="home-text text-5xl font-bold mb-4">Home</h1>
-            <h1 class="header-text text-3xl font-bold mb-4">About me</h1>
+            <h1 class="home-text text-5xl font-bold mb-4 ml-4">Home</h1>
+            <h1 class="header-text text-3xl font-bold mb-4 ml-4">About me</h1>
 
             <p class="font-bold">
               <a href="#about" class="font-bold px-2 text-right see-more"
                 >see more</a
               >
             </p>
+            <div class="container mt-10"></div>
+
+            <h1 class="header-text text-3xl font-bold mb-4 ml-4">Projects</h1>
+            <div class="container mx-auto p-4">
+              <img
+                src="/images/my-work/product-preview-card.png"
+                alt="Example Image"
+                class="mx-auto rounded-full"
+              />
+              <a
+                href="#projects"
+                class="block text-center mt-4 font-bold text-blue-500"
+                >See more of my work</a
+              >
+            </div>
           </div>
 
           <!-- About page -->
@@ -72,7 +87,7 @@
             id="about"
             class="h-full w-screen w-full max-w-full mx-auto px-4 py-8 bg-white rounded-lg shadow-lg mt-8"
           >
-            <h2 class="header-text text-3xl font-bold mb-4">About</h2>
+            <h2 class="home-text text-5xl font-bold mb-4 ml-4">About</h2>
             <p>
               Hi! My name is Hilrick Louw and I am a self taught frontend web
               developer. I decided to finally take the leap into the amazing,
@@ -112,6 +127,7 @@
               <br />
             </p>
 
+            <!-- Link to top -->
             <div>
               <div class="mt-2 text-gray-700 text-right text-xs">
                 <a href="#navbar" class="font-bold px-2 text-right nav-item"
@@ -128,9 +144,27 @@
             id="projects"
             class="h-full w-screen w-full max-w-full mx-auto px-4 py-8 bg-white rounded-lg shadow-lg mt-8"
           >
-            <h2 class="header-text text-3xl font-bold mb-4">Projects</h2>
-            <p>Feel free to have look at some of my work below.</p>
+            <h2 class="home-text text-5xl font-bold mb-4 ml-4">Projects</h2>
+            <div class="container mx-auto p-4">
+              <h2 class="header-text text-3xl font-bold mb-4">
+                Product Preview Card
+              </h2>
+              <a href="https://example.com">
+                <img
+                  src="/images/my-work/product-preview-card.png"
+                  alt="Example Image"
+                  class="mx-auto rounded-full"
+                  onclick="location.href='https://example.com';"
+                />
+              </a>
+              <a
+                href="https://example.com"
+                class="block text-center mt-4 font-bold text-blue-500"
+                >See code</a
+              >
+            </div>
 
+            <!-- Link to top -->
             <div>
               <div class="mt-2 text-gray-700 text-right text-xs">
                 <a href="#navbar" class="font-bold px-2 text-right nav-item"
